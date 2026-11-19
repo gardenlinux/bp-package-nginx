@@ -1,0 +1,9 @@
+version_orig="1.30.6"
+version="1.30.6-4"
+version_suffix="gl1"
+
+message="New orig version ${version_orig}"
+
+SALSA_REPO_COMMIT="ba1b4fa854b97d3c904f53b438ca56d6ba9d91fe" # ebian/1.30.6-4
+
+git_src_commit $SALSA_REPO_COMMIT https://salsa.debian.org/nginx-team/nginx
